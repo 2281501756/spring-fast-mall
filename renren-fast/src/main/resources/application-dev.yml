@@ -3,7 +3,7 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         druid:
             driver-class-name: com.mysql.cj.jdbc.Driver
-            url: jdbc:mysql://43.143.237.216:3307/mall-admin?useUnicode=true&serverTimezone=Asia/Shanghai&createDatabaseIfNotExist=true&useSSL=false
+            url: jdbc:mysql://43.143.237.216:3307/mall-admin?serverTimezone=Asia/Shanghai&createDatabaseIfNotExist=true&useSSL=false
             username: root
             password: root
             initial-size: 10

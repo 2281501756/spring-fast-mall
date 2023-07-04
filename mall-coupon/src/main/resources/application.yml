@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: couponService
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://43.143.237.216:3307/mall_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&createDatabaseIfNotExist=true&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 10010
